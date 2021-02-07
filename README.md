@@ -1,1 +1,3 @@
-# DevSecOps
+# DevSecOps helper
+when i wanted to create my secure pipeline for devsecops proccess with concentrated on jenkins as a automation tools and DefectDoJo as a vulnerability management tools(VMS), i confront some problems in this process. for example DefectDoJo needs just one special format report from my tools like xml report of acunetix(DAST tools) and html report of sonarqube with security plugins (SAST tools). in normal process we don't have these type of format reports in our automation procees.
+That's why i have to develope these codes for solving my problems. i wrote two steps in codes. at first step we export xml report from acunetix or html report from sonarqube and then import them on defectdojo profile.
