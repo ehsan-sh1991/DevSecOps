@@ -1,0 +1,1 @@
+in the latest version of sonarqube, you can not export HTML report in sonar ui and API. as you know, DefectDojo just need html format report of sonarqube. because of this problem i wrote this code for easy integration between jenkins, sonar and defectdojo for SAST step in my secure pipeline. 
