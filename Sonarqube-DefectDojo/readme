@@ -1,1 +1,3 @@
-in the latest version of sonarqube, you can not export HTML report in sonar ui and API. as you know, DefectDojo just need html format report of sonarqube. because of this problem i wrote this code for easy integration between jenkins, sonar and defectdojo for SAST step in my secure pipeline. 
+in the latest version of Sonarqube, you can not export HTML report in sonar UI and API. as you know, DefectDojo just needs HTML format report of Sonarqube. because of this problem I wrote this code for easy integration between Jenkins, sonar, and Defectdojo for the SAST step in my secure pipeline. 
+if you need to use this code, at first you must install sonar-report in your Jenkins machine(with this command: $ npm install -g sonar-report) that wants to run this code in the pipeline.  (thanks https://github.com/soprasteria/sonar-report)
+then fill my code with your correct production data and run this script at the end of your pipeline.
