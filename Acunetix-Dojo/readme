@@ -1,0 +1,2 @@
+as you know, DefectDojo just needs XML format report of Acunetix scanner and with normal process you can export pdf report between Acunetix and Jenkins. because of this problem I wrote this code for easy integration between Jenkins, Acunetix, and Defectdojo for the DAST step in my secure pipeline. 
+if you need to use this code, at first you must fill my code with your correct production data and run this script at the end of your pipeline.
